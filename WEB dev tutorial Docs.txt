@@ -1,0 +1,7 @@
+[1] <meta name="viewport" content="width=device-width, initial-scale=1.0"> : This meta tag helps us to make the website responsive
+[2] <meta charset="UTF-8"> : This meta tag basically specifies which character set a website is written with. 
+Here is a definition of UTF-8 : UTF-8 (U from Universal Character Set + Transformation Format—8-bit) is a character encoding capable of encoding all possible characters (called code points) in Unicode.
+[3] <meta http-equiv="X-UA-Compatible" content="IE=edge"> : This tells Microsoft Internet Explorer to use the latest rendering engine ( edge )
+
+---- Body ----
+[1] Make sure to use section tags very important with descriptive class names

@@ -1,0 +1,35 @@
+[1] Box - sizing : Border box => Here all the divs of the html document takes the width assigned to it without adding the padding and border of that div.
+but for the case of content-box its the other way around Ref: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_box-sizing.
+
+[2] Min - height : The min-height property in CSS is used to set the minimum height of a specified element. i.e worst come to worst maintain this value also it helps in the case of media queries.
+
+Backgrouds
+[1] background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/bgImage.jpg); Used to apply gradient over an image
+    background-size: cover; Used to set the background size of that section in our case the header section
+    background-size: contain; This would try to  maintain the height and width of the image it's not a good option for background images but it might be okay to be used cards where the images are not too big e.t.c
+    background-repeat: no-repeat; /*Note the background-repeat property has no effect once the background size has been set to cover*/
+    background-position: center; This centers the background image
+    
+Navs
+[1] The best way to display the nav items i.e the logo and the navlinks is by displaying them as flex
+    display: flex;
+    justify-content: space-between; This add an even space in the X- axis between the items
+    align-items: center; This centers the items along the Y-axis
+
+Other display properties
+    display: inline-block allows to set a width and height on the element
+
+[2] flex: 1; This makes an item take up the total width of it's flex. This means flex-grow is one, flex-shrink is one and flex-basis is one percent also note when the flex-grow of a particular element is above one, it means that element would take the flex grow of its siblings times its own
+	Ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Centering Divs
+Note: This block of code down is used in centering a div
+.text-box{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+margin: 10px 0 40px; This css property adds margin top 10, margin left and right 0 and margin bottom 40
