@@ -5,6 +5,7 @@
     font-family: 'Poppins';
 }
 
+/* this is the line of code i used to prevent x overflow based on the nav bar */
 html, body{
     width: 100%;
     position: relative;
